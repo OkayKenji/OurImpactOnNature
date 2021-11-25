@@ -1,0 +1,41 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Gill Sans", sans-serif;
+    background-color: black;
+}
+
+canvas {
+    display: block;
+}
+
+.upperWrapper {
+    display: grid;
+    grid-template-columns: 3.75fr 1.25fr;
+    gap: 1px;
+    color: white;
+}
+
+.canvas {
+    border: 2px solid goldenrod;
+}
+
+.title {
+    border: 2px solid red;
+    padding: 5px;
+}
+
+.lowerWrapper {
+    display: grid;
+    grid-template-columns: 3.75fr 1.25fr;
+    gap: 1px;
+    color: white;
+}
+.desc {
+    border: 2px solid purple;
+    padding: 5px;
+}
+.qr {
+    border: 2px solid blue;
+}
