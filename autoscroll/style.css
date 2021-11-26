@@ -9,6 +9,9 @@ body {
 canvas {
     display: block;
 }
+p {
+    font-size: 1.3em;
+}
 
 .upperWrapper {
     display: grid;
@@ -41,4 +44,7 @@ canvas {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.grandtitle {
+    font-size: 2.5em;
 }
