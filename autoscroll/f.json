@@ -1,0 +1,21 @@
+{
+    "metadata": [{
+            "credits": ["Landsat/Copernicus", "Landsat/Copernicus"],
+            "title": "Palm Islands",
+            "description": "",
+            "map": "../images/uae/worldMap.png"
+        },
+        {
+            "credits": ["NASA/USGS", "Landsat/Copernicus"],
+            "title": "Aral Sea",
+            "description": "",
+            "map": "../images/aralsea/worldMap.png"
+        },
+        {
+            "credits": ["Maxar Technolgies", "Maxar Technolgies"],
+            "title": "Mahia Peninsula",
+            "description": "",
+            "map": "../images/mahia/worldMap.png"
+        }
+    ]
+}

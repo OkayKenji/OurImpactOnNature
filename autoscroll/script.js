@@ -1,12 +1,14 @@
 let backgroundImgs;
 let imgs;
 let blur;
+let jsonData;
 let index = 0;
 let xLoc = 0;
 
 function preload() {
     backgroundImgs = [loadImage('../images/uae/uae2000.jpg'),loadImage('../images/aralsea/AralSea1973.jpg'),loadImage('../images/mahia/Mahia2007.jpg')];
     imgs = [loadImage('../images/uae/uae2020.jpg'),loadImage('../images/aralsea/AralSea2021.jpg'),loadImage('../images/mahia/Mahia2021.jpg')];
+    jsonData = loadJSON('f.json');
 }
 
 function setup() {
@@ -28,6 +30,9 @@ function draw() {
         if (index>=backgroundImgs.length) {
             index = 0;
         }
+
+        let x = document.getElementById("mapImg");
+        x.setAttribute("src",jsonData.metadata[index].map);
     }
     animate();
 }
